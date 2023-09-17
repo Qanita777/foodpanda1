@@ -1,0 +1,234 @@
+.header-text{
+    color: #e21b70;
+    font-size: 25px;
+    margin-right: 40px;
+  }
+  nav{
+    box-shadow: 0 0.3rem 2rem rgb(0 0 0 /10%);
+  }
+  .nav-link {
+    padding: 0.5rem 1rem;
+    color: black;
+  }
+.form-pg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.form-pg>fieldset {
+    width: 100%;
+    max-width: 380px;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: pink;
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+    background-color: white;
+}
+
+.form-pg>fieldset>h3 {
+    font-weight: bold;
+}
+
+.form-pg>fieldset>div>button {
+    margin-bottom: 1%;
+}
+
+/* Fb */
+.fb-form {
+    height: 40px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-pg>fieldset>div>.fb-form>i {
+    padding-top: 0.5%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.form-pg>fieldset>div>.fb-form:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Apple */
+.form-pg>fieldset>div>.apple-form {
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-pg>fieldset>div>.apple-form>i {
+    padding-top: 0.5%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.form-pg>fieldset>div>.apple-form:hover {
+    opacity: 0.7;
+}
+
+/* Google */
+.form-pg>fieldset>div>.form-google {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    color: black;
+    border: 0.5px solid #333333;
+    font-size: 1rem;
+}
+
+.form-pg>fieldset>div>.form-google>img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.form-pg>fieldset>div>.form-google>p {
+    padding-top: 0;
+}
+
+.form-pg>fieldset>div>.form-google:hover {
+    background-color: #faeaf2;
+}
+
+/* Login */
+.form-pg>fieldset>div>a>.form-login {
+    width: 100%;
+    background-color: #e21b70;
+    color: white;
+}
+
+.form-pg>fieldset>div>a>.form-login:hover {
+    transform: scaleY(1.08);
+    background-color: #ac084f;
+}
+
+.form-pg>fieldset>div>a>.form-login {
+    width: 100%;
+    background-color: #e21b70;
+    color: white;
+}
+
+.form-pg>fieldset>div>a>.form-login:hover {
+    transform: scaleY(1.08);
+    background-color: #ac084f;
+}
+
+/* Signup */
+.form-pg>fieldset>div>a>.form-signup {
+    width: 100%;
+    border: 1px solid #e21b70;
+    color: #e21b70;
+}
+
+.form-pg>fieldset>div>a>.form-signup:hover {
+    transform: scaleY(1.08);
+    background-color: #faeaf2;
+}
+
+/* end para in form */
+.form-pg>fieldset>p {
+    font-size: 0.85rem;
+    margin-top: 1%;
+}
+
+/* Get Email Page */
+.gmail-logo {
+    font-size: 3rem;
+    padding-bottom: 3%;
+    color: #eb5998;
+    text-shadow: 5px 5px 10px #cedcee;
+}
+
+.email {
+    border: 2px solid grey;
+    margin-bottom: 5%;
+}
+
+.email:hover {
+    cursor: text;
+}
+
+/* Password */
+.forget{
+    color: #e21b70;
+    width: fit-content;
+    border-radius: 7px;
+}
+.forget:hover{
+    background-color: #faeaf2;
+}
+
+/* Landing Page */
+/* drop-profile */
+.drop-profile{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1249px) {
+    .city-main-21 {
+        display: none;
+    }
+}
+
+@media screen and ((min-width: 950px) and (max-width: 1017px)) {
+
+    /* Content */
+    .content-message {
+        width: 50%;
+        height: 50%;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    /* Space */
+    .navbar-space-css {
+        width: 20%;
+    }
+
+    /* Space */
+    .space-logo {
+        width: 60%;
+    }
+
+    /* App Invitation */
+    .app-content-main {
+        flex-direction: column;
+        align-items: center;
+        height: 38rem;
+    }
+
+    /* Box-1 */
+    .app-box1 {
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    /* Box-2 */
+    .app-box2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+}
